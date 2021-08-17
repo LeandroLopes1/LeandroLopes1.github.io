@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 
 function App() {
-    return (
-     <div>
-         aqui sera meus projetos
+  return (
+    <div>
+    aqui sera meus projetos
        
-         <Link to="/">Voltar</Link>
+    <Link to="/">Voltar</Link>
        
-     </div>
+    </div>
     );
   }
   
