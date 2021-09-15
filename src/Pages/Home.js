@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link} from 'react-router-dom';
+import Header from '../Components/Header';
+import Content from '../Components/Content';
 
 function Home() {
     return (
       <div>
-          aqui sera a home
-          <nav>
-              <Link to="/projetos"> Projetos </Link>
-             
-          </nav>
+        <Header />
+        <Content />
       </div>
       
     );
