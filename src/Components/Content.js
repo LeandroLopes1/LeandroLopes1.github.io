@@ -7,11 +7,11 @@ const Content = () => {
 
     const contentStyle = {
         dark: {
-            color: 'white',
+            color: '#ffeb3b',
             background: '#000000',
         },
         light: {
-            background: '#f5f5f5',
+            background: 'white',
             color: '#334195'
         },
     }

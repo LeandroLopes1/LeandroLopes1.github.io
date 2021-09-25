@@ -1,17 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
-function Projetos() {
+function Sobre() {
   return (
     <div>
     aqui sera meus projetos
-       
+         
     <Link to="/">Voltar</Link>
-       
+         
     </div>
-    );
-  }
-  
-  export default Projetos;
-  
+  );
+}
+    
+export default Sobre;

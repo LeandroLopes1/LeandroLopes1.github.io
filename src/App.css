@@ -9,5 +9,66 @@ header {
 
 .main1 {
   display: flex;
-  align-items: center;
+  min-height:100vh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  position: relative;
+  display: block;
+  padding: 15px 40px;
+  margin: 0 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #7371fc;
+}
+
+span:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 4px solid #7371fc;
+  border-left: 4px solid #7371fc;
+  transition: 0.5s;
+  box-sizing: border-box;
+  transform-origin: left;
+  
+}
+
+span:hover:before {
+  width: 15px;
+  height: 15px;
+  transform: rotate(360deg);
+}
+
+span:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 4px solid #7371fc;
+  border-right: 4px solid #7371fc;
+  transition: 0.5s;
+  box-sizing: border-box;
+  transform-origin: right;
+}
+
+span:hover:after {
+  width: 15px;
+  height: 15px;
+  transform: rotate(360deg);
 }
