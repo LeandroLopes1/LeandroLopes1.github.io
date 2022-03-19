@@ -280,8 +280,14 @@ a {
   .carousel {
     margin-left: 0%;
     width: 100%;
-    margin-top: 30%;
+    margin-top: 0%;
   
+  }
+  .main1 {
+  
+    width: 100%;
+    margin-left: 0%;
+    min-height: 110vh;
   }
   
 }
