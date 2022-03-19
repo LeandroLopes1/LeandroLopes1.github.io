@@ -40,7 +40,7 @@ const Content = () => {
          
             <div className="wrapper"> 
             <h2> Hi There, I'm</h2>
-            <h1> Leandro Lopes</h1>
+            <h1 className='h1-content'> Leandro Lopes</h1>
             <h3><span ref={ textRef }></span> Developer </h3>
             </div>
            
