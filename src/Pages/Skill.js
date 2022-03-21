@@ -23,7 +23,7 @@ function Skill() {
 
   const contentStyle = {
       dark: {
-          color: 'black',
+          color: '#7371fc',
           background: '#000000',
       },
       light: {
@@ -95,7 +95,7 @@ function Skill() {
   
 
    
-  <div >
+  <div className='div-hard'>
    <h1  className='h1-Skill'>Hard Skill</h1>
    <div class="row row-cols-1 row-cols-md-3 g-4">
    <div class="col">

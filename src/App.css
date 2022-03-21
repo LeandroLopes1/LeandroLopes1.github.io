@@ -129,7 +129,6 @@ li {
   }
 
   .soft-skill{
- 
     position: fixed;
     top: 60px;
     left: 250px;  
@@ -139,6 +138,12 @@ li {
     position: fixed;
     top:  60px;
     left:  900px;
+  }
+
+  .div-hard {
+    
+    margin-top: 60px;
+    
   }
   
   .foto-soft-skill {
@@ -199,9 +204,7 @@ a {
 }
 
 .carousel {
-  margin-top: -30%;
-  width: 80%;
-  margin-left: 10%;
+margin-top: -600px;
 }
 
 
@@ -277,6 +280,7 @@ a {
   .imgContainer {
     display: none;
   }
+
   .carousel {
     margin-left: 0%;
     width: 100%;
@@ -288,9 +292,22 @@ a {
     width: 100%;
     margin-left: 0%;
     min-height: 110vh;
-  }
-  
+  }  
 }
+
+@media screen and (max-width: 472px) {
+  .carousel {
+    margin-left: 0%;
+    width: 100%;
+    margin-top: 0%;
+  }
+  .main1 {
+    width: 100%;
+    margin-left: 0%;
+    min-height: 150vh;
+  }
+}
+
   
 @media screen and (max-width: 388px) {
   .h1-content {
