@@ -179,6 +179,13 @@ li {
     margin-right: 25px;
   }
 
+  .contato {
+    margin-left: -25px;
+    height: 100px;
+    margin-top: 80px;
+    margin-right: 25px;
+  }
+
   .texto-sobre {
     font-size: clamp(1.4em, 1em + 1vw, 1.5em);
     margin-top: 20px;   
@@ -203,13 +210,110 @@ a {
   color: inherit;
 }
 
-.carousel {
-margin-top: -600px;
+
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.socials {
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  width: 85%;
+  justify-content: center;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-link img {
+  width: 20%;
+  filter: drop-shadow(1.5px 1.5px 0px #7371fc)
+          drop-shadow(1.5px 1.5px 0px #7371fc)
+          drop-shadow(1.5px 1.5px 0px #7371fc);
+}
+
+.contact-link span {
+  font-size: 10px;
+  margin-left: 15px;
+  align-self: center;
 }
 
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  margin-top: 20px;
+}
+
+.form-title {
+  margin: 30px;
+  margin-top: 60px;
+  text-transform: uppercase;
+  font-size: 20px;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formie {
+  background: transparent;
+  border: 2px solid  #7371fc;
+  margin: 7px 0;
+  padding: 7px;
+  color: #7371fc;
+ 
+}
+
+.formie::placeholder {
+  font-style: italic;
+}
+
+.formie:focus {
+  outline-style: solid;
+  outline-color: white;
+  outline-width: thin;
+}
+
+.form-btn {
+  background: #7371fc;
+  box-shadow: 5px 0px 0px #7371fc;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+  width: 90px;
+  height: 35px;
+  margin-top: 15px;
+  align-self: flex-end;
+}
+
+.form-btn:active {
+  transform: translate(5px);
+  box-shadow: none;
+}
+
 
 @media screen and (max-width: 767px) {
+
+  .socials {
+    margin-top: 50px;
+    margin-left: -10px;
+  }
+  
   .navbar__links {
     flex-direction: column;
     justify-content: center;
@@ -281,14 +385,8 @@ margin-top: -600px;
     display: none;
   }
 
-  .carousel {
-    margin-left: 0%;
-    width: 100%;
-    margin-top: 0%;
-  
-  }
+
   .main1 {
-  
     width: 100%;
     margin-left: 0%;
     min-height: 110vh;
@@ -296,15 +394,11 @@ margin-top: -600px;
 }
 
 @media screen and (max-width: 472px) {
-  .carousel {
-    margin-left: 0%;
-    width: 100%;
-    margin-top: 0%;
-  }
+
   .main1 {
     width: 100%;
     margin-left: 0%;
-    min-height: 150vh;
+    min-height: 110vh;
   }
 }
 
