@@ -47,7 +47,7 @@ function Contato() {
                 <input type="text" name="name" placeholder="Name*" required className='formie' />
                 <input type="email" name="email" placeholder="Email*" required className='formie' />
                 <input type="text" name="_subject" placeholder="Assunto" className='formie' />
-                <textarea placeholder="Mensagem" class="form-control" name="message" rows="10" required className='formie'></textarea>
+                <textarea placeholder="Mensagem" class="form-control" name="message" rows="5" required className='formie'></textarea>
 
                 <input type="hidden" name="_next" value="https://leandrolopes1.github.io/contato" />
                 <input type="hidden" name="_captcha" value="false" />

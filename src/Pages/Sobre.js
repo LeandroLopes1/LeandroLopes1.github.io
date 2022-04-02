@@ -28,7 +28,7 @@ function Sobre() {
 
 
         <p className="texto-sobre"> Olá, sou Engenheiro Civil em transição de carreira. Formado em Desenvolvimento Web Full Stack pela escola de programação
-        Trybe. No curso aprendi a desenvolver aplicações web como um todo, utilizando tecnologias como HTML, CSS, JavaScript,
+        Trybe. No curso desenvolvi aplicações web como um todo, utilizando tecnologias como HTML, CSS, JavaScript,
         React, Node.js, Express, MongoDB, Python, Algoritmos e estrutura de dados. Além disso, aprendi a utilizar ferramentas como Git, GitHub, Heroku e tambem a linguagem SQL, utilizando o banco de dados MySQL. A cada bloco desenvolvi um projeto e ao todo foram mais de 35 projetos.
         Para saber mais entre no meu GitHub em contato e veja meus projetos.
         </p>
