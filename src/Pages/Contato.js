@@ -27,7 +27,7 @@ function Contato() {
     <main className="main1" style={(theme === 'light' ? contentStyle.light : contentStyle.dark)}>
       <Link to="/" style={{ textDecoration: 'none' }}><span className="home">Home </span></Link>
     <div className='contato'>
-    <h1>Contato</h1>
+    <h1 className='h1-contato'>Contato</h1>
    
           <div className='socials'>
             <a href="https://github.com/LeandroLopes1" rel='noreferrer' target='_blank' className="contact-link">

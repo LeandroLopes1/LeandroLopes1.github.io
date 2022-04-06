@@ -22,9 +22,9 @@ function Sobre() {
   return (
     
     <><main className="main1" style={(theme === 'light' ? contentStyle.light : contentStyle.dark)}>
-      <Link to="/" style={{ textDecoration: 'none' }}><span className="home">Home </span></Link>
+      <Link to="/" style={{ textDecoration: 'none' }} className="borda"><span className="home">Home </span></Link>
       <div className="sobre">
-        <h1>Sobre</h1>
+        <h1 className="h1-sobre">Sobre</h1>
 
 
         <p className="texto-sobre"> Olá, sou Engenheiro Civil em transição de carreira. Formado em Desenvolvimento Web Full Stack pela escola de programação

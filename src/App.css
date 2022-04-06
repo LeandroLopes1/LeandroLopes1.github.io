@@ -9,6 +9,8 @@
   min-height: 100vh;
 }
 
+
+
 .navbar {
 box-shadow: none;
 }
@@ -172,6 +174,10 @@ li {
     height: 200px;
   }
 
+  .foto-projeto {
+    height: 300px;
+  }
+
   .sobre {
     margin-left: -25px;
     height: 100px;
@@ -188,19 +194,36 @@ li {
 
   .texto-sobre {
     font-size: clamp(1.4em, 1em + 1vw, 1.5em);
-    margin-top: 20px;   
+    margin-top: 20px;
+    margin-left: -85px;
+  }
+
+  .h1-sobre{
+   
+    margin-left: -85px;
   }
 
 .skill {
   margin-top: 100px;
   margin-right: 100px;
   margin-bottom: 20px;
+  margin-left: -85px;
 }
 
-a {
-  margin-top: 5px;
-  margin-right: -90px;
+.projetos {
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+ 
+
 }
+
+.projeto2 {
+margin-top: 100px;
+  
+}
+
+
 
 .navbar__burger{
   border: none;
@@ -224,6 +247,12 @@ a {
   margin-top: 30px;
   width: 85%;
   justify-content: center;
+  margin-left: -85px;
+}
+
+.h1-contato {
+  margin-left: -85px;
+  margin-top: 20px;
 }
 
 .contact-link {
@@ -251,6 +280,7 @@ a {
   align-items: center;
   margin: 30px;
   margin-top: 20px;
+  margin-left: -85px;
 }
 
 .form-title {
@@ -260,6 +290,7 @@ a {
   font-size: 20px;
   align-self: flex-start;
   margin-bottom: 20px;
+  margin-left: -85px;
 }
 
 .contact-form form {
