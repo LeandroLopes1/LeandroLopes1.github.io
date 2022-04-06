@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d698c35.chunk.css",
-    "main.js": "/static/js/main.3b7f3683.chunk.js",
-    "main.js.map": "/static/js/main.3b7f3683.chunk.js.map",
+    "main.css": "/static/css/main.b5fb9462.chunk.css",
+    "main.js": "/static/js/main.c8756731.chunk.js",
+    "main.js.map": "/static/js/main.c8756731.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f603d8f8.js",
     "runtime-main.js.map": "/static/js/runtime-main.f603d8f8.js.map",
     "static/css/2.4f0c8bef.chunk.css": "/static/css/2.4f0c8bef.chunk.css",
@@ -12,11 +12,12 @@
     "static/js/3.30c72826.chunk.js.map": "/static/js/3.30c72826.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4f0c8bef.chunk.css.map": "/static/css/2.4f0c8bef.chunk.css.map",
-    "static/css/main.5d698c35.chunk.css.map": "/static/css/main.5d698c35.chunk.css.map",
+    "static/css/main.b5fb9462.chunk.css.map": "/static/css/main.b5fb9462.chunk.css.map",
     "static/js/2.dc4d28f9.chunk.js.LICENSE.txt": "/static/js/2.dc4d28f9.chunk.js.LICENSE.txt",
     "static/media/Comunicação.57bdb122.jpg": "/static/media/Comunicação.57bdb122.jpg",
     "static/media/Pensamento.747ef169.png": "/static/media/Pensamento.747ef169.png",
     "static/media/criatividade.43de7b7a.jpg": "/static/media/criatividade.43de7b7a.jpg",
+    "static/media/front.1e344da9.png": "/static/media/front.1e344da9.png",
     "static/media/git.7d664489.png": "/static/media/git.7d664489.png",
     "static/media/github.8ed91d41.png": "/static/media/github.8ed91d41.png",
     "static/media/html.3d46777d.png": "/static/media/html.3d46777d.png",
@@ -25,17 +26,19 @@
     "static/media/liderança.dcbec0e0.png": "/static/media/liderança.dcbec0e0.png",
     "static/media/linkdin.367e73f5.png": "/static/media/linkdin.367e73f5.png",
     "static/media/logo-css-3-1024.d9b4581c.png": "/static/media/logo-css-3-1024.d9b4581c.png",
+    "static/media/mern.713b0d3b.png": "/static/media/mern.713b0d3b.png",
     "static/media/mesapc.ff2c13e2.png": "/static/media/mesapc.ff2c13e2.png",
     "static/media/mongo1.479432de.png": "/static/media/mongo1.479432de.png",
     "static/media/nodelogo.ca6c7625.png": "/static/media/nodelogo.ca6c7625.png",
     "static/media/react.c4f07e18.png": "/static/media/react.c4f07e18.png",
+    "static/media/recipes.614243ea.png": "/static/media/recipes.614243ea.png",
     "static/media/sql.8c53f465.png": "/static/media/sql.8c53f465.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f603d8f8.js",
     "static/css/2.4f0c8bef.chunk.css",
     "static/js/2.dc4d28f9.chunk.js",
-    "static/css/main.5d698c35.chunk.css",
-    "static/js/main.3b7f3683.chunk.js"
+    "static/css/main.b5fb9462.chunk.css",
+    "static/js/main.c8756731.chunk.js"
   ]
 }
