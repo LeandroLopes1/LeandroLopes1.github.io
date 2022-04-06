@@ -28,7 +28,7 @@ function Projetos() {
       <Link to="/" style={{ textDecoration: 'none' }}><span className="home">Home </span></Link>
 
       <div>
-    <div className="skill">
+    <div className="projetos">
 
    <div class="row row-cols-1 row-cols-md-3 g-4">
    <div class="col">
@@ -69,11 +69,6 @@ function Projetos() {
     </div>
     </div>
     </div>
-  
-
-     
-  
-
 
     </main>
   

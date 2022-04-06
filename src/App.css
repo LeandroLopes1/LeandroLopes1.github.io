@@ -174,9 +174,7 @@ li {
     height: 200px;
   }
 
-  .foto-projeto {
-    height: 300px;
-  }
+
 
   .sobre {
     margin-left: -25px;
@@ -214,16 +212,15 @@ li {
   margin-top: 100px;
   margin-right: 100px;
   margin-bottom: 20px;
- 
-
+  margin-left: -95px;
 }
 
-.projeto2 {
-margin-top: 100px;
-  
+.foto-projeto {
+  width: 200px;
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
 }
-
-
 
 .navbar__burger{
   border: none;
