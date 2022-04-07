@@ -3,13 +3,10 @@
   padding: 0;
 }
 
-
 .main1 {
   display: flex;
   min-height: 100vh;
 }
-
-
 
 .navbar {
 box-shadow: none;
@@ -33,6 +30,7 @@ li {
   text-decoration: none;
   text-transform: uppercase;
   color: #7371fc;
+  margin-top: 5px;
 }
 
 .home:before {
@@ -342,6 +340,11 @@ width: 350px;
 
 @media screen and (max-width: 767px) {
 
+  .nav__item{
+ margin-top: 50px;
+  
+  }
+
   .socials {
     margin-top: 30px;
     margin-left: -10px;
@@ -419,7 +422,7 @@ width: 350px;
   }
 
   .wrapper {
-    margin-top: -50px;
+    margin-top: -250px;
   }
 
 
