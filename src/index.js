@@ -4,14 +4,17 @@ import './index.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { HashRouter } from 'react-router-dom';
 import MainProvider from './Context/MainProvider'
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <HashRouter>
    <MainProvider>
     <App />
    </MainProvider>
+   </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
