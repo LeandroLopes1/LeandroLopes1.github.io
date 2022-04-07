@@ -83,121 +83,113 @@ li {
   align-items: center;
   justify-content: center;
   width: 100%;
-
 }
-
 
 .left {
   width: 800px;
-  }
+}
 
-  .imgContainer {
-    margin-top: 50px;
-    width: auto;
-  }
+.imgContainer {
+  margin-top: 50px;
+  width: auto;
+}
 
-  .h1-content {
-    font-size: 60px;
-    margin: 10px 0;
-  }
+.h1-content {
+  font-size: 60px;
+  margin: 10px 0;
+}
 
-  h2{
-    font-size: 35px;
-  }
+h2{
+  font-size: 35px;
+}
 
-  h3{
-    font-size: 30px;
-    
-  }
+h3{
+  font-size: 30px;    
+}
 
-  span{
-    font-size: inherit;
-    color:red
-  }
+span{
+  font-size: inherit;
+  color:red
+}
 
-  .ityped-cursor{
-    animation: blink 1s infinite;
-  } 
+.ityped-cursor{
+  animation: blink 1s infinite;
+} 
 
-  @keyframes blink {
-    50%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 0;
-    }
+@keyframes blink {
+  50%{
+    opacity: 1;
   }
+  100%{
+    opacity: 0;
+  }
+}
 
-  .soft-skill{
-    position: fixed;
-    top: 60px;
-    left: 250px;  
-  }
+.soft-skill{
+  position: fixed;
+  top: 60px;
+  left: 250px;  
+}
 
-  .hard-skill {
-    position: fixed;
-    top:  60px;
-    left:  900px;
-  }
+.hard-skill {
+  position: fixed;
+  top:  60px;
+  left:  900px;
+}
 
-  .div-hard {
-    
-    margin-top: 60px;
-    
-  }
+.div-hard {    
+  margin-top: 60px;
+}
   
-  .foto-soft-skill {
-    width: 100%;
-    height: auto;
-    display: flex;
-    margin-top: 170px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-left: -50px; 
-  }
+.foto-soft-skill {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 170px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: -50px; 
+}
 
-  .foto-soft-skill1 {
-    height: 110px;
-    width: 200px;
-    margin-top: 20px;
-    border-radius: 10px;
-    width: 100%;
-    height: 200px;
-  }
+.foto-soft-skill1 {
+  height: 110px;
+  width: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+}
 
-  .foto-hard-skill1 {
-    margin-top: 50px;
-    margin-left: 20%;
-    width: 60%;
-    height: 200px;
-  }
+.foto-hard-skill1 {
+  margin-top: 50px;
+  margin-left: 20%;
+  width: 60%;
+  height: 200px;
+}
 
+.sobre {
+  margin-left: -25px;
+  height: 100px;
+  margin-top: 80px;
+  margin-right: 25px;
+}
 
+.contato {
+  margin-left: -25px;
+  height: 100px;
+  margin-top: 80px;
+  margin-right: 25px;
+}
 
-  .sobre {
-    margin-left: -25px;
-    height: 100px;
-    margin-top: 80px;
-    margin-right: 25px;
-  }
+.texto-sobre {
+  font-size: clamp(1.4em, 1em + 1vw, 1.5em);
+  margin-top: 20px;
+  margin-left: -85px;
+}
 
-  .contato {
-    margin-left: -25px;
-    height: 100px;
-    margin-top: 80px;
-    margin-right: 25px;
-  }
-
-  .texto-sobre {
-    font-size: clamp(1.4em, 1em + 1vw, 1.5em);
-    margin-top: 20px;
-    margin-left: -85px;
-  }
-
-  .h1-sobre{
-   
-    margin-left: -85px;
-  }
+.h1-sobre{
+  margin-left: -85px;
+}
 
 .skill {
   margin-top: 100px;
@@ -427,7 +419,6 @@ width: 350px;
     margin-top: -250px;
   }
 
-
   .main1 {
     width: 100%;
     margin-left: 0%;
@@ -436,7 +427,6 @@ width: 350px;
 }
 
 @media screen and (max-width: 472px) {
-
   .main1 {
     width: 100%;
     margin-left: 0%;
@@ -444,13 +434,9 @@ width: 350px;
 
   }
 }
-
-  
+ 
 @media screen and (max-width: 388px) {
   .h1-content {
     font-size: clamp(3em, 1em + 1vw, 1.5em);
   }  
-
-
 }
-
