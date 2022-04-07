@@ -18,6 +18,7 @@ import  mongodbLogo from '../Images/mongo1.png'
 import  nodejsLogo from '../Images/nodelogo.png'
 
 function Skill() {
+  document.title = "Skill";
 
   const { theme } = useContext(ThemeContext);
 

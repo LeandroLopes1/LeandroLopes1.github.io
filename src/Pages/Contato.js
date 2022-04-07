@@ -7,6 +7,7 @@ import github from '../Images/github.png';
 
 
 function Contato() {
+  document.title = "Contato";
 
   const { theme } = useContext(ThemeContext);
 

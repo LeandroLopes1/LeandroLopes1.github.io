@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 function Sobre() {
+  document.title = "Sobre";
 
   const { theme } = useContext(ThemeContext);
 

@@ -8,6 +8,7 @@ import recipes from '../Images/recipes.png';
 
 
 function Projetos() {
+  document.title = "Projetos";
 
   const { theme } = useContext(ThemeContext);
 
