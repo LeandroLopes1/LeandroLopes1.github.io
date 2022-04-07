@@ -347,7 +347,9 @@ width: 350px;
 
   .socials {
     margin-top: 30px;
-    margin-left: -10px;
+    margin-left: -120px;
+    width: 150%;
+  
   }
   
   .navbar__links {
