@@ -31,7 +31,7 @@ function Projetos() {
     <div className="projetos">
 
    <div class="row row-cols-1 row-cols-md-3 g-4">
-   <div class="col">
+   <div class="col" className='tamanho-div'>
     <div class="card h-100">
     <h5 class="card-title">Projeto Front-end Store</h5>
       <img src={ front } alt="foto de liderança"  class="card-img-top"  className="foto-projeto"/>
@@ -44,7 +44,7 @@ function Projetos() {
     </div>
 
     
-  <div class="col">
+  <div class="col"  className='tamanho-div'>
     <div class="card h-100">
     <h5 class="card-title">Projeto MERN To-do list</h5>
       <img src={ mern} alt="foto de liderança"  class="card-img-top"  className="foto-projeto" />
@@ -55,7 +55,7 @@ function Projetos() {
     </div>
     </div>
 
-    <div class="col">
+    <div class="col"  className='tamanho-div'>
     <div class="card h-100">
     <h5 class="card-title">Projeto App de Receitas</h5>
       <img src={ recipes } alt="foto de liderança"  class="card-img-top"  className="foto-projeto" />
