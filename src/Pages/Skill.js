@@ -99,42 +99,42 @@ function Skill() {
   <div className='div-hard'>
    <h1  className='h1-Skill'>Hard Skill</h1>
    <div class="row row-cols-1 row-cols-md-3 g-4">
-   <div class="col"  className='tamanho-div'>
+   <div class="col">
     <div class="card h-100">
       <img src={ htmlLogo } alt="foto logo html"  class="card-img-top" className="foto-hard-skill1" />
     </div>
   </div>
-  <div class="col"  className='tamanho-div'>
+  <div class="col">
     <div class="card h-100">
       <img src={ cssLogo } alt="foto logo css" class="card-img-top"className="foto-hard-skill1"/>
     </div>
   </div>
-  <div class="col"  className='tamanho-div'>
+  <div class="col">
     <div class="card h-100">
       <img src={ javaLogo } alt="foto logo javascript"  class="card-img-top" className="foto-hard-skill1"/>
     </div>
   </div>
-  <div class="col"  className='tamanho-div'>
+  <div class="col">
     <div class="card h-100">
       <img img src={ gitLogo } alt="foto logo git" class="card-img-top" className="foto-hard-skill1"/>
     </div>
   </div>
-  <div class="col"  className='tamanho-div'>
+  <div class="col">
     <div class="card h-100">
       <img src={ reactLogo } alt="foto logo react" class="card-img-top" className="foto-hard-skill1"/>
     </div>
   </div>
-  <div class="col"  className='tamanho-div'>
+  <div class="col">
     <div class="card h-100">
       <img src={ sqlLogo } alt="foto logo SQL"class="card-img-top" className="foto-hard-skill1"/>
     </div>
   </div>
-  <div class="col"  className='tamanho-div'>
+  <div class="col">
     <div class="card h-100">
       <img src={ mongodbLogo } alt="foto logo mongoDB" class="card-img-top" className="foto-hard-skill1"/>
     </div>
   </div>
-  <div class="col" className='tamanho-div'>
+  <div class="col">
     <div class="card h-100">
       <img src={ nodejsLogo } alt="foto logo nodeJS"  class="card-img-top" className="foto-hard-skill1"/>
     </div>

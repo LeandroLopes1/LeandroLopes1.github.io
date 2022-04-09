@@ -193,14 +193,16 @@ span{
 
 .skill {
   margin-top: 100px;
-  margin-right: 100px;
+  margin-right: 15px;
   margin-bottom: 20px;
   margin-left: -125px;
 }
 
+
+
 .projetos {
   margin-top: 100px;
-  margin-right: 100px;
+
   margin-bottom: 20px;
   margin-left: -125px;
 
@@ -331,6 +333,10 @@ width: 350px;
 
 
 @media screen and (max-width: 767px) {
+
+  body, html {
+    overflow-x: hidden;
+  }
 
   .nav__item{
  margin-top: 50px;
